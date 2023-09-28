@@ -1,6 +1,6 @@
 using System;
 // paste into main method
     {
-      Console.WriteLine(“hello, everyone!”);
+      Console.WriteLine(“hello, Welcome To My New Website!”);
     }
   
