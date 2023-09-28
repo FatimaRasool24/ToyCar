@@ -1,0 +1,21 @@
+using System;
+namespace example
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+            string result = question();
+            Console.WriteLine(result);
+        
+            string question() {
+            Console.WriteLine("What is the capital of Colorado?");
+            string answer = Console.ReadLine();
+            
+	        if (answer == "Denver")
+	            {Console.WriteLine("You win!");}
+	        else question();
+            return "Game over";
+     }
+  }
+}

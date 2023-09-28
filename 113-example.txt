@@ -1,0 +1,14 @@
+using System;
+namespace example
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      Console.WriteLine(“hello, everyone!”);
+      // integers use four bytes of memory
+      // doubles use eight bytes of memory
+      // Strings use two bytes per character
+    }
+  }
+}

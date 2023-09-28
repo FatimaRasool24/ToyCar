@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Objects Example</title>
+</head>
+<body>
+<p id="banner"></p>
+<button id="saleButton">Show the Sale message</button>
+
+<script>
+function saleMessage() {
+	document.getElementById('banner').innerHTML = 'Special sale this weekend!';
+}
+document.getElementById('saleButton').addEventListener("click", saleMessage);
+
+class ToyCar {
+ constructor(name, color) {
+	this.name = name;
+	this.color = color;}
+}
+</script>
+</body>
+</html>

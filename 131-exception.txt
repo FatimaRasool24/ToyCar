@@ -1,0 +1,23 @@
+using System;
+namespace example
+{
+  class Program
+  {
+    static void Main()
+	{
+        int x= 5;
+        int y= 0;
+            try
+            {
+                Console.WriteLine(x/y);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+	          }
+            finally{
+              Console.WriteLine("Code Complete.");
+            }
+
+  }
+}

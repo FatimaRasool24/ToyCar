@@ -1,0 +1,17 @@
+using System;
+using System.Collections.Generic;
+
+// paste into the Main method
+    
+  	Queue<string> orderNumbers = new Queue<string>();
+	orderNumbers.Enqueue("11111");
+	orderNumbers.Enqueue("11112");
+	orderNumbers.Enqueue("11113");
+	//orderNumbers.Dequeue
+	
+	foreach (string orderNumber in orderNumbers)
+	{
+	    Console.WriteLine(orderNumber);
+	}
+	//Console.WriteLine(orderNumbers.Peek());
+     

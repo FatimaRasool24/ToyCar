@@ -1,0 +1,6 @@
+using System;
+// paste into main method
+    {
+      Console.WriteLine(“hello, everyone!”);
+    }
+  

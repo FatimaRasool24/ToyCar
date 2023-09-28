@@ -1,0 +1,17 @@
+using System;
+namespace example
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+    
+        int x = 1;
+  	    while (x <= 5)
+        {
+            Console.WriteLine("You have {0} orders of toy cars", x);
+            x++;
+        }
+     }
+  }
+}

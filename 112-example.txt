@@ -1,0 +1,28 @@
+using System;
+namespace example
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      Console.WriteLine(“hello, everyone!”);
+      int i = 1;
+
+      ToyCar toyCar1 = new ToyCar('Sedan','Blue',16)
+      double toyCar1Sale = toyCar1.salePrice();
+      Console.WriteLine("The blue sedan sale price is {0}", toyCar1Sale);
+    }
+  }
+  class ToyCar
+{
+    public string name;
+    public string color;
+    public double price;
+
+    
+    public double salePrice()
+    {
+        return price * .75;
+    }
+}
+}

@@ -1,0 +1,16 @@
+using System;
+namespace example
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+    	Console.WriteLine("Locations:");
+  	   string[] cities = { "Aurora","Centennial","Louisville" };
+   	foreach (string s in cities)
+    {
+      Console.WriteLine(s);
+    }
+     }
+  }
+}

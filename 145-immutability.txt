@@ -1,0 +1,32 @@
+using System;
+namespace example
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+    
+  	
+	
+     }
+public Task<int> GetTotal()
+{
+    int x=5;
+    int y=15;
+    const int taxRate=.075;
+
+
+    showWarning();
+
+    
+
+    return await (x*y)+1*taxRate;
+}
+
+void showWarning()
+{
+    Console.WriteLine("Working...");
+    // more code could be running here
+}
+  }
+}

@@ -1,0 +1,22 @@
+using System;
+namespace example
+{
+  class Program
+  {
+    static void Main()
+	{
+            try {
+                  Console.WriteLine("How many cars do you want?");
+                      int amount = Convert.ToInt32(Console.ReadLine());
+              Console.WriteLine("Your order total will be {0} dollars", amount*16);
+              }
+
+              catch (Exception ex)
+              {
+                  Console.WriteLine(ex.Message);
+              }
+
+	}
+
+  }
+}
